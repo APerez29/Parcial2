@@ -30,12 +30,18 @@ public class Treatment {
         this.pet = pet;
         this.doctors = doctors;
     }
-    public void addTreatment(Pet treatment, ArrayList<Doctor> doctors1, TreatmentType SURGERY, LocalDate of, double par) {
-        
-           
+    public Treatment addTreatment(Pet treatment, ArrayList<Doctor> doctors1, TreatmentType SURGERY, LocalDate of, double par) {
+   
+     
    
        
        
-    }
+        return null;
+   
+     
+   
+       
+       
+}
     
 }

@@ -11,9 +11,7 @@ import core.petHealth.treatment.Treatment;
 import core.petHealth.treatment.TreatmentType;
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.Map;
+
 
 /**
  *

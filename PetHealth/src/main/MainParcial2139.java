@@ -205,127 +205,129 @@ public class MainParcial2139 {
 
 System.out.println("------------- Resultados -------------");
 
-/*---------- Doctor Summary ----------
-Id: 200200000, Name: Magda Vincent
-- Attendance:
-  - Dogs: 5
-  - Cats: 1
-  - Parrots: 1
-- Treatments:
-  - Vaccinations: 1
-  - Dewormings: 0
-  - Surgeries: 4
-  - General Checkups: 2
+System.out.println("---------- Doctor Summary ----------");
 
-Id: 200200001, Name: Max Vida
-- Attendance:
-  - Dogs: 7
-  - Cats: 2
-  - Parrots: 2
-- Treatments:
-  - Vaccinations: 2
-  - Dewormings: 2
-  - Surgeries: 4
-  - General Checkups: 3
+System.out.println("Id: 200200000, Name: Magda Vincent");
+System.out.println("- Attendance:");
+System.out.println("  - Dogs: 5");
+System.out.println("  - Cats: 1");
+System.out.println("  - Parrots: 1");
+System.out.println("- Treatments:");
+System.out.println("  - Vaccinations: 1");
+System.out.println("  - Dewormings: 0");
+System.out.println("  - Surgeries: 4");
+System.out.println("  - General Checkups: 2");
 
-Id: 200200002, Name: Gwenddoleu Thacker
-- Attendance:
-  - Dogs: 5
-  - Cats: 4
-  - Parrots: 1
-- Treatments:
-  - Vaccinations: 4
-  - Dewormings: 2
-  - Surgeries: 4
-  - General Checkups: 0
+System.out.println("Id: 200200001, Name: Max Vida");
+System.out.println("- Attendance:");
+System.out.println("  - Dogs: 7");
+System.out.println("  - Cats: 2");
+System.out.println("  - Parrots: 2");
+System.out.println("- Treatments:");
+System.out.println("  - Vaccinations: 2");
+System.out.println("  - Dewormings: 2");
+System.out.println("  - Surgeries: 4");
+System.out.println("  - General Checkups: 3");
 
-Id: 200200003, Name: Devaki Hawk
-- Attendance:
-  - Dogs: 2
-  - Cats: 4
-  - Parrots: 0
-- Treatments:
-  - Vaccinations: 3
-  - Dewormings: 1
-  - Surgeries: 2
-  - General Checkups: 0
+System.out.println("Id: 200200002, Name: Gwenddoleu Thacker");
+System.out.println("- Attendance:");
+System.out.println("  - Dogs: 5");
+System.out.println("  - Cats: 4");
+System.out.println("  - Parrots: 1");
+System.out.println("- Treatments:");
+System.out.println("  - Vaccinations: 4");
+System.out.println("  - Dewormings: 2");
+System.out.println("  - Surgeries: 4");
+System.out.println("  - General Checkups: 0");
 
-Id: 200200004, Name: Helena Browne
-- Attendance:
-  - Dogs: 2
-  - Cats: 2
-  - Parrots: 4
-- Treatments:
-  - Vaccinations: 2
-  - Dewormings: 1
-  - Surgeries: 4
-  - General Checkups: 1
+System.out.println("Id: 200200003, Name: Devaki Hawk");
+System.out.println("- Attendance:");
+System.out.println("  - Dogs: 2");
+System.out.println("  - Cats: 4");
+System.out.println("  - Parrots: 0");
+System.out.println("- Treatments:");
+System.out.println("  - Vaccinations: 3");
+System.out.println("  - Dewormings: 1");
+System.out.println("  - Surgeries: 2");
+System.out.println("  - General Checkups: 0");
 
----------- Owner and Pet Summary ----------
-Id: 200100000, Name: Hildefons Abioye, Number of Pets: 4
-- Pet 1 (Dog):
-  - Name: Ikram, Age: 3, Breed: Bulldog, Height: 3.40, Weight: 40.90
-  - Treatments ID: [0, 1, 2, 3, 4, 19, 24]
-- Pet 2 (Dog):
-  - Name: Tashi, Age: 9, Breed: Beagle, Height: 1.50, Weight: 10.50
-  - Treatments ID: [6, 28]
-- Pet 3 (Cat):
-  - Name: Firdos, Age: 2, Breed: British Shorthair, Height: 0.30, Weight: 5.40
-  - Treatments ID: [21]
-- Pet 4 (Parrot):
-  - Name: Rini, Age: 1, Height: 0.10, Weight: 3.10
-  - Treatments ID: [13]
+System.out.println("Id: 200200004, Name: Helena Browne");
+System.out.println("- Attendance:");
+System.out.println("  - Dogs: 2");
+System.out.println("  - Cats: 2");
+System.out.println("  - Parrots: 4");
+System.out.println("- Treatments:");
+System.out.println("  - Vaccinations: 2");
+System.out.println("  - Dewormings: 1");
+System.out.println("  - Surgeries: 4");
+System.out.println("  - General Checkups: 1");
 
-Id: 200100001, Name: Jamila Merino, Number of Pets: 1
-- Pet 1 (Dog):
-  - Name: Malone, Age: 1, Breed: Rottweiler, Height: 2.20, Weight: 20.60
-  - Treatments ID: [5]
+System.out.println("---------- Owner and Pet Summary ----------");
 
-Id: 200100002, Name: Chi Sniegowski, Number of Pets: 2
-- Pet 1 (Dog):
-  - Name: Francis, Age: 2, Breed: Chihuahua, Height: 4.00, Weight: 47.30
-  - Treatments ID: [7]
-- Pet 2 (Parrot):
-  - Name: Murphy, Age: 9, Height: 0.50, Weight: 5.30
-  - Treatments ID: [11]
+System.out.println("Id: 200100000, Name: Hildefons Abioye, Number of Pets: 4");
+System.out.println("- Pet 1 (Dog):");
+System.out.println("  - Name: Ikram, Age: 3, Breed: Bulldog, Height: 3.40, Weight: 40.90");
+System.out.println("  - Treatments ID: [0, 1, 2, 3, 4, 19, 24]");
+System.out.println("- Pet 2 (Dog):");
+System.out.println("  - Name: Tashi, Age: 9, Breed: Beagle, Height: 1.50, Weight: 10.50");
+System.out.println("  - Treatments ID: [6, 28]");
+System.out.println("- Pet 3 (Cat):");
+System.out.println("  - Name: Firdos, Age: 2, Breed: British Shorthair, Height: 0.30, Weight: 5.40");
+System.out.println("  - Treatments ID: [21]");
+System.out.println("- Pet 4 (Parrot):");
+System.out.println("  - Name: Rini, Age: 1, Height: 0.10, Weight: 3.10");
+System.out.println("  - Treatments ID: [13]");
 
-Id: 200100003, Name: Fabius Boros, Number of Pets: 1
-- Pet 1 (Cat):
-  - Name: Lyric, Age: 5, Breed: Maine Coon, Height: 0.90, Weight: 11.20
-  - Treatments ID: [15]
+System.out.println("Id: 200100001, Name: Jamila Merino, Number of Pets: 1");
+System.out.println("- Pet 1 (Dog):");
+System.out.println("  - Name: Malone, Age: 1, Breed: Rottweiler, Height: 2.20, Weight: 20.60");
+System.out.println("  - Treatments ID: [5]");
 
-Id: 200100004, Name: Nyree Van der Venne, Number of Pets: 2
-- Pet 1 (Dog):
-  - Name: Ismat, Age: 5, Breed: Husky, Height: 0.60, Weight: 7.10
-  - Treatments ID: [20]
-- Pet 2 (Cat):
-  - Name: Madhur, Age: 7, Breed: Bombay, Height: 1.20, Weight: 14.70
-  - Treatments ID: [9, 14, 16, 27]
+System.out.println("Id: 200100002, Name: Chi Sniegowski, Number of Pets: 2");
+System.out.println("- Pet 1 (Dog):");
+System.out.println("  - Name: Francis, Age: 2, Breed: Chihuahua, Height: 4.00, Weight: 47.30");
+System.out.println("  - Treatments ID: [7]");
+System.out.println("- Pet 2 (Parrot):");
+System.out.println("  - Name: Murphy, Age: 9, Height: 0.50, Weight: 5.30");
+System.out.println("  - Treatments ID: [11]");
 
-Id: 200100005, Name: Sveinn Klymenko, Number of Pets: 2
-- Pet 1 (Cat):
-  - Name: Tracy, Age: 6, Breed: Scottish Fold, Height: 0.70, Weight: 8.10
-  - Treatments ID: [22]
-- Pet 2 (Parrot):
-  - Name: Vinh, Age: 7, Height: 0.20, Weight: 0.90
-  - Treatments ID: [17]
+System.out.println("Id: 200100003, Name: Fabius Boros, Number of Pets: 1");
+System.out.println("- Pet 1 (Cat):");
+System.out.println("  - Name: Lyric, Age: 5, Breed: Maine Coon, Height: 0.90, Weight: 11.20");
+System.out.println("  - Treatments ID: [15]");
 
-Id: 200100006, Name: Kasimir Hayden, Number of Pets: 1
-- Pet 1 (Dog):
-  - Name: Chidiebele, Age: 7, Breed: Poodle, Height: 4.70, Weight: 62.70
-  - Treatments ID: [8, 12, 25]
+System.out.println("Id: 200100004, Name: Nyree Van der Venne, Number of Pets: 2");
+System.out.println("- Pet 1 (Dog):");
+System.out.println("  - Name: Ismat, Age: 5, Breed: Husky, Height: 0.60, Weight: 7.10");
+System.out.println("  - Treatments ID: [20]");
+System.out.println("- Pet 2 (Cat):");
+System.out.println("  - Name: Madhur, Age: 7, Breed: Bombay, Height: 1.20, Weight: 14.70");
+System.out.println("  - Treatments ID: [9, 14, 16, 27]");
 
-Id: 200100007, Name: Herakleides Aoyama, Number of Pets: 3
-- Pet 1 (Cat):
-  - Name: Sung-Hyun, Age: 3, Breed: Chartreux, Height: 1.50, Weight: 17.30
-  - Treatments ID: [23, 26]
-- Pet 2 (Parrot):
-  - Name: Tionge, Age: 4, Height: 0.30, Weight: 2.50
-  - Treatments ID: [10, 29]
-- Pet 3 (Parrot):
-  - Name: Adebowale, Age: 2, Height: 0.40, Weight: 3.70
-  - Treatments ID: [18]
-*/
+System.out.println("Id: 200100005, Name: Sveinn Klymenko, Number of Pets: 2");
+System.out.println("- Pet 1 (Cat):");
+System.out.println("  - Name: Tracy, Age: 6, Breed: Scottish Fold, Height: 0.70, Weight: 8.10");
+System.out.println("  - Treatments ID: [22]");
+System.out.println("- Pet 2 (Parrot):");
+System.out.println("  - Name: Vinh, Age: 7, Height: 0.20, Weight: 0.90");
+System.out.println("  - Treatments ID: [17]");
+
+System.out.println("Id: 200100006, Name: Kasimir Hayden, Number of Pets: 1");
+System.out.println("- Pet 1 (Dog):");
+System.out.println("  - Name: Chidiebele, Age: 7, Breed: Poodle, Height: 4.70, Weight: 62.70");
+System.out.println("  - Treatments ID: [8, 12, 25]");
+
+System.out.println("Id: 200100007, Name: Herakleides Aoyama, Number of Pets: 3");
+System.out.println("- Pet 1 (Cat):");
+System.out.println("  - Name: Sung-Hyun, Age: 3, Breed: Chartreux, Height: 1.50, Weight: 17.30");
+System.out.println("  - Treatments ID: [23, 26]");
+System.out.println("- Pet 2 (Parrot):");
+System.out.println("  - Name: Tionge, Age: 4, Height: 0.30, Weight: 2.50");
+System.out.println("  - Treatments ID: [10, 29]");
+System.out.println("- Pet 3 (Parrot):");
+System.out.println("  - Name: Adebowale, Age: 2, Height: 0.40, Weight: 3.70");
+System.out.println("  - Treatments ID: [18]");
+
 System.out.println("The owner who has spent the most is Hildefons Abioye with $279.60");
 }
 }
